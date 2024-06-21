@@ -1,0 +1,258 @@
+body {
+font-family: 'Raleway', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.topnav {
+background-color: #FBFAED;
+padding: 0px 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+height: 100px;
+}
+
+.nav-links {
+display: flex;
+}
+
+.topnav a {
+display: block;
+color: #A6AF9D;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+text-transform: lowercase;
+font-variant: small-caps;
+font-size: 20px;
+font-weight: 500;
+}
+
+.topnav a
+{
+color: #A6AF9D;
+}
+
+.topnav a.active {
+color: #A6AF9D;
+}
+
+.topnav a:hover {
+color: #BC8F8F; 
+}
+
+@media screen and (max-width: 600px) {
+.topnav {
+flex-direction: column;
+align-items: flex-start;
+}
+  
+ .nav-links {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.topnav a {
+    width: 100%; 
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.logo {
+    margin-bottom: 10px; 
+}
+
+  }
+
+.hero {
+background-image: url(https://github.com/CoelP/Portfolio/blob/main/_3KC7447.JPG?raw=true);
+background-size: cover;
+background-position: center;
+position: relative;
+height: 100vh;
+}
+
+.hero-text {
+font-weight: 400;
+font-size: 74px;
+color: #2E3943;
+position: absolute;
+top: 10%;
+left: 5%;
+right: 5%;
+max-width: 60%;
+padding: 10px;
+}
+
+.case-studies {
+font-weight: bold;
+text-transform: uppercase;
+margin-right: 20px;
+}
+
+.custom-button {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+border: none;
+background: none;
+padding: 0;
+cursor: pointer;
+margin-top: 20px;
+position: relative;
+}
+
+.button-svg {
+width: 260px;
+height: auto;
+position: relative;
+}
+
+.button-text {
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+font-size: 1em;
+color: #FBFAED;
+text-transform: lowercase;
+font-variant: small-caps;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+pointer-events: none;
+} 
+
+.case-studies {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 150px;
+}
+
+.text-image-section {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+width: 100%;
+max-width: 1200px;
+}
+
+.text-section {
+width: 50%;
+}
+
+.h3 {
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: bold;
+text-transform: smallcaps;
+left: 5%;
+right: 5%;
+padding-left: 40px;
+padding-top: 20px;
+padding-bottom: 50px;
+color: #2E3943;
+
+}
+
+.h1 {
+font-family: 'Raleway', sans-serif;
+font-size: 42px;
+font-weight: 600;
+color: 2E3943;
+padding: 10px;
+padding-left: 40px;
+color: #496B61;
+}
+
+.h2 {
+font-family: 'Montserrat', sans-serif;
+font-size: 32px;
+font-weight: 400;
+padding: 10px;
+padding-left: 40px;
+padding-right: 15px;
+color: #2E3943;
+  
+}
+
+.h4 {
+font-family: 'Caveat Brush', cursive;
+font-size: 44px;
+font-weight: 400;
+padding: 10px;
+padding-left: 40px;
+padding-right: 15px;
+color: #70818F;
+  
+}
+
+.h5 {
+font-family: 'montserrat', sanserif;
+font-size: 30px;
+font-weight: 400;
+padding: 10px;
+padding-left: 40px;
+padding-right: 15px;
+padding-top: 5px;
+color: #70818F;
+
+}
+
+.case-study-button {
+margin-top: 20px;
+}
+
+.custom-button {
+display: flex;
+align-items: left;
+text-decoration: none;
+}
+
+.button-svg {
+}
+
+.button-text {
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+color: #ffffff;
+}
+
+.image-section {
+width: 50%;
+}
+
+.image-section img {
+max-width: 100%;
+height: auto;
+Padding-right: 10px;
+padding-top: 150px;
+}
+
+scrollbar {
+    height: 2000px;
+    padding: 20px;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #BC8F8F;
+    border-radius: 6px;
+}
